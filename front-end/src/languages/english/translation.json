@@ -1,0 +1,103 @@
+{
+  "tasksList": {
+    "your_tasks": "Your Tasks",
+    "click_task": "Click on a task to see details",
+    "no_tasks": "No tasks available",
+    "description": "Description",
+    "created_at": "Created At",
+    "close": "Close",
+    "loading": "Loading tasks…",
+    "delete": "Delete"
+  },
+
+  "add_todo": {
+    "title_section": "Add a New Task",
+    "subtitle_section": "Keep it short and clear. Description is optional.",
+    "create_tag": "Create",
+    "form": {
+      "title_label": "Title",
+      "title_required": "*",
+      "title_placeholder": "e.g., Finish assignment",
+      "title_helper": "This will be shown as the main task title.",
+      "description_label": "Description",
+      "description_optional": "(optional)",
+      "description_placeholder": "Add a bit more detail…"
+    },
+    "messages": {
+      "error_title": "Could not add task",
+      "success_title": "Success",
+      "empty_task_error": "Please enter a task title.",
+      "not_logged_in_error": "You are not logged in. Please login to add tasks.",
+      "server_error": "Server error"
+    },
+    "buttons": {
+      "submit": "Add Task",
+      "loading": "Adding…",
+      "clear": "Clear"
+    },
+    "note": "Note: You must be logged in (token in localStorage) to create a task."
+  },
+
+  "user_profile": {
+    "not_logged_in": "User not logged in",
+    "unauthorized": "Unauthorized",
+    "session_expired": "Session expired. Please login again.",
+    "error_title": "Couldn’t load profile",
+    "error_helper": "If you just logged in, try refreshing or login again.",
+    "retry": "Retry",
+    "user_placeholder": "User",
+    "active": "Active",
+    "profile": "Profile",
+    "refresh": "Refresh profile",
+    "name": "Name",
+    "email": "Email",
+    "note": "Data is fetched from /api/me using your saved token."
+  },
+   "header": {
+    "brand": "Todo App",
+    "menu": "Menu",
+    "nav": {
+      "home": "Home",
+      "todos": "Todos"
+    },
+    "language": "Language",
+    "english": "English",
+    "urdu": "Urdu",
+    "logout": "Logout"
+  },
+   "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Profile left, tasks management right"
+  },
+
+   "login": {
+    "welcome": "Welcome back",
+    "subtitle": "Login to continue to your dashboard.",
+    "login_tag": "Login",
+    "email_label": "Email",
+    "email_placeholder": "you@example.com",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "login_failed": "Login failed",
+    "server_error": "Server error",
+    "terms": "By continuing, you agree to our terms and privacy policy.",
+    "tip": "Tip: Use a strong password. If you forgot it, ask admin to reset."
+  },
+   "register": {
+    "title": "Create your account",
+    "subtitle": "Register to start managing your todos.",
+    "tag": "Register",
+    "name_label": "Name",
+    "name_placeholder": "Enter your name",
+    "email_label": "Email",
+    "email_placeholder": "you@example.com",
+    "password_label": "Password",
+    "password_placeholder": "Create a strong password",
+    "password_helper": "Use at least 6 characters.",
+    "success": "Success",
+    "failed": "Registration failed",
+    "server_error": "Server error",
+    "terms": "By registering, you agree to our terms and privacy policy.",
+    "tip": "After registration, go to login and sign in."
+  }
+}

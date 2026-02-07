@@ -1,0 +1,109 @@
+ 
+{
+
+   "tasksList" : {
+  "your_tasks": "آپ کے کام",
+  "click_task": "تفصیلات دیکھنے کے لیے کام پر کلک کریں",
+  "no_tasks": "کوئی کام موجود نہیں",
+  "description": "تفصیل",
+  "created_at": "تخلیق کی تاریخ",
+  "close": "بند کریں",
+  "loading": "کام لوڈ ہو رہے ہیں…",
+  "delete": "حذف کریں"
+},
+
+  "add_todo": {
+    "title_section": "ایک نیا ٹاسک شامل کریں",
+    "subtitle_section": "مختصر اور واضح رکھیں۔ تفصیل اختیاری ہے۔",
+    "create_tag": "بنائیں",
+    "form": {
+      "title_label": "عنوان",
+      "title_required": "*",
+      "title_placeholder": "مثلاً، اسائنمنٹ مکمل کریں",
+      "title_helper": "یہ مرکزی ٹاسک عنوان کے طور پر دکھایا جائے گا۔",
+      "description_label": "تفصیل",
+      "description_optional": "(اختیاری)",
+      "description_placeholder": "مزید تفصیل شامل کریں…"
+    },
+    "messages": {
+      "error_title": "ٹاسک شامل نہیں کیا جا سکا",
+      "success_title": "کامیابی",
+      "empty_task_error": "براہ کرم ٹاسک کا عنوان درج کریں۔",
+      "not_logged_in_error": "آپ لاگ ان نہیں ہیں۔ ٹاسک شامل کرنے کے لیے لاگ ان کریں۔",
+      "server_error": "سرور کی خرابی"
+    },
+    "buttons": {
+      "submit": "ٹاسک شامل کریں",
+      "loading": "شامل کیا جا رہا…",
+      "clear": "صاف کریں"
+    },
+    "note": "نوٹ: ٹاسک بنانے کے لیے آپ کو لاگ ان ہونا ضروری ہے (token localStorage میں ہونا چاہیے)۔"
+  },
+
+  "user_profile": {
+    "not_logged_in": "صارف لاگ ان نہیں ہے",
+    "unauthorized": "اجازت نہیں ہے",
+    "session_expired": "سیشن ختم ہو گیا۔ دوبارہ لاگ ان کریں۔",
+    "error_title": "پروفائل لوڈ نہیں ہو سکا",
+    "error_helper": "اگر آپ نے ابھی لاگ ان کیا ہے تو صفحہ ریفریش کریں یا دوبارہ لاگ ان کریں۔",
+    "retry": "دوبارہ کوشش کریں",
+    "user_placeholder": "صارف",
+    "active": "فعال",
+    "profile": "پروفائل",
+    "refresh": "پروفائل ریفریش کریں",
+    "name": "نام",
+    "email": "ای میل",
+    "note": "ڈیٹا آپ کے محفوظ ٹوکن کے ذریعے /api/me سے حاصل کیا گیا ہے۔"
+  },
+  
+  "header": {
+    "brand": "ٹوڈو ایپ",
+    "menu": "مینیو",
+    "nav": {
+      "home": "ہوم",
+      "todos": "ٹاسکس"
+    },
+    "language": "زبان",
+    "english": "انگریزی",
+    "urdu": "اردو",
+    "logout": "لاگ آؤٹ"
+  }
+,
+
+
+  "dashboard": {
+    "title": "ڈیش بورڈ",
+    "subtitle": "پروفائل بائیں، ٹاسکس کا انتظام دائیں"
+  },
+
+  "login": {
+    "welcome": "خوش آمدید",
+    "subtitle": "اپنے ڈیش بورڈ تک پہنچنے کے لیے لاگ ان کریں۔",
+    "login_tag": "لاگ ان",
+    "email_label": "ای میل",
+    "email_placeholder": "آپ کی مثال@example.com",
+    "password_label": "پاس ورڈ",
+    "password_placeholder": "اپنا پاس ورڈ درج کریں",
+    "login_failed": "لاگ ان ناکام",
+    "server_error": "سرور میں خرابی",
+    "terms": "جاری رکھ کر آپ ہماری شرائط و رازداری کی پالیسی سے متفق ہیں۔",
+    "tip": "مشورہ: مضبوط پاس ورڈ استعمال کریں۔ اگر بھول گئے، ایڈمن سے ری سیٹ کروائیں۔"
+  },
+   "register": {
+    "title": "اپنا اکاؤنٹ بنائیں",
+    "subtitle": "اپنے ٹو ڈو مینج کرنے کے لیے رجسٹر کریں۔",
+    "tag": "رجسٹر",
+    "name_label": "نام",
+    "name_placeholder": "اپنا نام درج کریں",
+    "email_label": "ای میل",
+    "email_placeholder": "آپ کی مثال@example.com",
+    "password_label": "پاس ورڈ",
+    "password_placeholder": "مضبوط پاس ورڈ بنائیں",
+    "password_helper": "کم از کم 6 حروف استعمال کریں۔",
+    "success": "کامیابی",
+    "failed": "رجسٹریشن ناکام",
+    "server_error": "سرور میں خرابی",
+    "terms": "رجسٹر کر کے آپ ہماری شرائط و رازداری کی پالیسی سے متفق ہیں۔",
+    "tip": "رجسٹریشن کے بعد لاگ ان کریں اور سائن ان کریں۔"
+  }
+}

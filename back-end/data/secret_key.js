@@ -1,0 +1,2 @@
+const SECRET_KEY = 'MY_TODO_APP_SECRET_KEY';
+export default SECRET_KEY
